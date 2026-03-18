@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shachin | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#stack" class="nav-link">Stack</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#academic" class="nav-link">Academic</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="eyebrow">YUTP Education Grant Recipient</p>
+            
+            <h1 class="main-title">Hi, I'm <span>Shachin</span></h1>
+            <h2 class="dynamic-text">I'm a <span id="typing-text"></span></h2>
+
+            <div class="profile-container">
+                <img src="profile.png" alt="Shachindran" class="profile-img">
+            </div>
+
+            <p class="sub-headline">
+                IT Student at Universiti Teknologi PETRONAS. <br>
+                <strong>Seeking 8-month Internship • May 2026</strong>
+            </p>
+
+            <div class="hero-btns">
+                <div class="moving-text-wrapper">
+                    <span class="moving-text">Let's Work Together!</span>
+                </div>
+                
+                <a href="resume.pdf" target="_blank" class="btn-resume">View My Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="about-text">
+                <h2 class="section-title">Building versatile tech with a <span class="highlight">global perspective.</span></h2>
+                <div class="bio-content">
+                    <p>Hi, I'm <strong>Shachindran</strong>. I'm currently pursuing my Bachelor of Information Technology at <strong>Universiti Teknologi PETRONAS (UTP)</strong>. As a YUTP Education Grant recipient, I’ve been able to fully dedicate myself to understanding the mechanics behind efficient, scalable systems.</p>
+                    
+                    <p>I intentionally avoid limiting myself to a single technical niche. My work spans a wide spectrum—from building out complex OOP logic to exploring Artificial Intelligence and Machine Learning. I believe the most effective tech professionals are those who can pull from multiple disciplines to solve a problem.</p>
+                    
+                    <p>Recently, I completed a student exchange at <strong>Bilkent University, Turkey</strong>. Navigating a new academic environment forced me to adapt fast and gave me a global perspective on how teams collaborate and tackle challenges.</p>
+                </div>
+                
+                <div class="internship-badge">
+                    <span class="pulse"></span> Available for Internship: May 2026
+                </div>
+            </div>
+
+            <div class="about-stats">
+                <div class="stat-card">
+                    <h3>Global Experience</h3>
+                    <p>Bilkent University Exchange (Turkey)</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Education Grant</h3>
+                    <p>YUTP Excellence Recipient</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Adaptability</h3>
+                    <p>Multilingual & Cross-disciplinary</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="stack" class="stack-section">
+        <div class="stack-header">
+            <h2 class="section-title">My <span class="highlight">Stack</span></h2>
+            <p>The languages, frameworks, and tools I use to build, analyze, and communicate.</p>
+        </div>
+
+        <div class="stack-grid">
+            <div class="flip-card" onclick="this.classList.toggle('flipped')">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" class="tech-logo">
+                        <h3>Python</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>My go-to language for backend logic and data handling. I use it heavily for analytical problem-solving and algorithmic challenges.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card" onclick="this.classList.toggle('flipped')">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="C++" class="tech-logo">
+                        <h3>C++</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Essential for understanding core system mechanics. It built my solid foundation in object-oriented programming.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card" onclick="this.classList.toggle('flipped')">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg" alt="Unity" class="tech-logo">
+                        <h3>Unity & C#</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>The engine and logic behind my interactive projects, like the 'Wan and Whiskers' multiplayer game.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card" onclick="this.classList.toggle('flipped')">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="logo-group">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5" class="tech-logo small">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3" class="tech-logo small">
+                        </div>
+                        <h3>HTML5 & CSS</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>The building blocks of my web projects. I rely on these to structure responsive, clean, and accessible user interfaces.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card" onclick="this.classList.toggle('flipped')">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                         <div class="logo-group">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" class="tech-logo small">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" alt="PHP" class="tech-logo small">
+                        </div>
+                        <h3>JS & PHP</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>The bridge between front-end interfaces and back-end logic. I use these to make web applications fully functional and interactive.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card" onclick="this.classList.toggle('flipped')">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="MySQL" class="tech-logo">
+                        <h3>MySQL</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Where I organize and structure data. I use it to design robust database architectures, like centralized healthcare records.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card" onclick="this.classList.toggle('flipped')">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-plain.svg" alt="Visual Basic" class="tech-logo">
+                        <h3>Visual Basic</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>A practical tool I use for rapid application development and structuring straightforward, functional tools.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card" onclick="this.classList.toggle('flipped')">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="logo-group">
+                            <img src="https://cdn.worldvectorlogo.com/logos/power-bi-1.svg" alt="Power BI" class="tech-logo small">
+                            <img src="https://cdn.worldvectorlogo.com/logos/excel-4.svg" alt="Excel" class="tech-logo small">
+                        </div>
+                        <h3>Power BI & Excel</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Data needs a story. I use Excel for heavy-duty organization and Power BI to translate raw numbers into visual, actionable insights.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card" onclick="this.classList.toggle('flipped')">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="logo-group">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" alt="Figma" class="tech-logo small">
+                            <img src="https://cdn.worldvectorlogo.com/logos/framer-1.svg" alt="Framer" class="tech-logo small">
+                        </div>
+                        <h3>Figma & Framer</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Where code meets design. I use these to wireframe layouts and build interactive prototypes before actual development begins.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card" onclick="this.classList.toggle('flipped')">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3 style="font-size: 3rem; margin-bottom: 10px;">🗣️</h3>
+                        <h3>Fluent Languages</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>English, Bahasa Melayu, and Tamil. My primary languages for technical documentation, project coordination, and day-to-day communication.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card" onclick="this.classList.toggle('flipped')">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3 style="font-size: 3rem; margin-bottom: 10px;">🌍</h3>
+                        <h3>Conversational</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Turkish, Mandarin Chinese, and Telugu. Picking up the basics of these helped me navigate my exchange semester and connect with global teams.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="projects-header">
+            <h2 class="section-title">What I've <span class="highlight">Built</span></h2>
+            <p class="projects-sub">A selection of my work spanning software engineering, IoT, interface design, and network security.</p>
+        </div>
+
+        <div class="projects-grid">
+            
+            <div class="project-card">
+                <div class="project-thumb theme-dark" onclick="window.location.href='project-weather.html'">
+                    <h2 class="thumb-title">Weather System</h2>
+                    <div class="view-btn">View Project <span>→</span></div>
+                </div>
+                <div class="project-info">
+                    <span class="project-category">IoT & Environmental Analytics</span>
+                    <h3>Weather Accuracy System</h3>
+                    <p>An IoT-based environmental monitoring system engineered to bridge the gap between forecasted and actual weather data through real-time localized sensing. I collaborated on integrating an ESP32 microcontroller with the DHT11 sensor to monitor ambient temperature and humidity, routing this hardware data through a centralized cloud platform to validate the reliability of digital forecasts.</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-thumb theme-slate" onclick="window.location.href='project-freshtrack.html'">
+                    <h2 class="thumb-title">Fresh Track</h2>
+                    <div class="view-btn">View Project <span>→</span></div>
+                </div>
+                <div class="project-info">
+                    <span class="project-category">UI/UX Design</span>
+                    <h3>Fresh Track</h3>
+                    <p>A digital inventory solution designed to reduce household food waste. Serving as UI/UX lead, I prototyped an AI-driven "Smart Scan" flow in Figma to extract receipt data, and designed a high-fidelity pantry interface with color-coded shelf-life tracking.</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-thumb theme-navy" onclick="window.location.href='project-wanandwhiskers.html'">
+                    <h2 class="thumb-title">Wan & Whiskers</h2>
+                    <div class="view-btn">View Project <span>→</span></div>
+                </div>
+                <div class="project-info">
+                    <span class="project-category">Game Development & OOP</span>
+                    <h3>Wan and Whiskers</h3>
+                    <p>A fast-paced, two-player swarm assault game requiring heavy coordination. Built entirely in Unity using C#, structuring game mechanics to include dynamic multi-character control, destructible environments, and a tiered endless adventure mode.</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-thumb theme-charcoal" onclick="window.location.href='project-netsec.html'">
+                    <h2 class="thumb-title">NetSec Assessment</h2>
+                    <div class="view-btn">View Project <span>→</span></div>
+                </div>
+                <div class="project-info">
+                    <span class="project-category">Cybersecurity</span>
+                    <h3>Corporate Network Vulnerability Assessment</h3>
+                    <p>A simulated "Red Team" penetration test to identify and mitigate critical corporate risks. Conducted network reconnaissance, exploited known vulnerabilities (MS17-010), and drafted a strategic remediation plan focused on MFA and least-privilege access.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="archive-section">
+            <button id="view-more-btn" class="btn-primary" style="margin: 0 auto 40px; display: block; text-align: center;">View More Projects ↓</button>
+            
+            <div id="archive-content" class="archive-content">
+                <h3 class="archive-title">Other Explorations</h3>
+                <div class="archive-list">
+                    <div class="archive-item">
+                        <h4>Frosting Fairies</h4>
+                        <p><strong>Full-Stack Web:</strong> Responsive e-commerce platform for custom cakes using HTML, CSS, JavaScript, PHP, and MySQL, complete with user registration and secure order tracking.</p>
+                    </div>
+                    <div class="archive-item">
+                        <h4>SkinScan+ Care</h4>
+                        <p><strong>HCI & Prototyping:</strong> Designed accessible Figma prototypes for an AI-powered dermatological app aimed at rural Malaysian communities, featuring multilingual reports and high-contrast UI elements.</p>
+                    </div>
+                    <div class="archive-item">
+                        <h4>Digital Forensics Investigation</h4>
+                        <p><strong>Cybersecurity:</strong> Utilized Autopsy and FTK Imager to investigate a simulated corporate data breach, reconstructing the attack timeline and uncovering hidden artifacts.</p>
+                    </div>
+                    <div class="archive-item">
+                        <h4>YouTube Network Simulation</h4>
+                        <p><strong>Networking:</strong> Used eNSP to simulate a video streaming network, configuring OSPF and static routing across multiple routers to analyze data flow and latency.</p>
+                    </div>
+                    <div class="archive-item">
+                        <h4>MyCARE Architecture Concept</h4>
+                        <p><strong>Healthcare Tech:</strong> Proposed and mapped out a centralized Electronic Health Record (EHR) system to consolidate fragmented patient data across Malaysian healthcare facilities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="academic" class="academic-section">
+        <div class="academic-header">
+            <h2 class="section-title">Academic <span class="highlight">Journey</span></h2>
+            <p class="academic-sub">Consistent excellence, global perspective, and campus leadership.</p>
+        </div>
+
+        <div class="highlights-grid">
+            <div class="highlight-card brand-card">
+                <div class="card-content">
+                    <span class="card-icon">🎓</span>
+                    <h3>YUTP Education Grant Recipient</h3>
+                    <p>Awarded for both Foundation and Undergraduate Studies (September 2023 - Present).</p>
+                </div>
+            </div>
+
+            <div class="highlight-card image-card">
+                <img src="award.jpg" alt="CFS Dean's Award" class="award-img">
+                <div class="card-content">
+                    <h3>CFS Dean’s Award</h3>
+                    <p>Awarded during the Foundation Studies Completion Ceremony (September 2024).</p>
+                </div>
+            </div>
+
+            <div class="highlight-card outline-card">
+                <div class="card-content">
+                    <span class="card-icon">⭐</span>
+                    <h3>5x Dean’s List Recipient</h3>
+                    <p>Recognized across Undergraduate (Sept '24, May '25) and Foundation Studies (May '23, Sept '23, Jan '24).</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="global-banner">
+            <div class="global-text">
+                <h3>Expanding Horizons: <br><span class="highlight">Bilkent University Exchange</span></h3>
+                <span class="timeline-badge">Fall Semester 2025 - 2026</span>
+                <p>I stepped outside my familiar academic environment to complete a student exchange program at Bilkent University in Turkey. This experience challenged me to adapt to a new technical curriculum, collaborate with international peers, and develop a more global perspective on technology and problem-solving. It was a defining moment in building my adaptability as a future IT professional.</p>
+            </div>
+            
+            <div class="global-collage">
+                <img src="turkey1.jpg" alt="Bilkent Exchange 1" class="collage-img img-1">
+                <img src="turkey2.jpg" alt="Bilkent Exchange 2" class="collage-img img-2">
+                <img src="turkey3.jpg" alt="Bilkent Exchange 3" class="collage-img img-3">
+            </div>
+        </div>
+
+        <div class="timeline-container">
+            <h3 class="timeline-title">Leadership & Campus Involvement</h3>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>2026</h4>
+                        <p><strong>Media Committee:</strong> MPU4 Community Engagement Project - EDULINK (February)</p>
+                        <p><strong>Assistant Project Director:</strong> HoliRun UTP (January)</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>2025</h4>
+                        <p><strong>AHOD Event Management:</strong> UTP Sangeeth (May 2025 - Present)</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>2024</h4>
+                        <p><strong>Sponsorship Department:</strong> Down to Earth (DTE) Project (March)</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>2023</h4>
+                        <p><strong>Competitor:</strong> Oh My Code (OMC) Competition (November)</p>
+                        <p><strong>Participant:</strong> AirAsia Academy Educational Visit (September)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="contact-section">
+        <div class="contact-container">
+            <div class="contact-col">
+                <h3 class="contact-title">Contact Me</h3>
+                <a href="https://api.whatsapp.com/qr/O4SUPX5CHGSJI1?autoload=1&app_absent=0" target="_blank" class="contact-link hover-target" data-cursor="Chat on WhatsApp">WhatsApp</a>
+                
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=shachindran4@gmail.com" target="_blank" class="contact-link hover-target" data-cursor="Email Me">shachindran4@gmail.com</a>
+            </div>
+
+            <div class="contact-col">
+                <h3 class="contact-title">Social</h3>
+                <a href="https://www.linkedin.com/in/shachindran-veerangan-02b67a15a/" target="_blank" class="contact-link hover-target" data-cursor="Visit My LinkedIn Profile">LinkedIn</a>
+                <a href="https://github.com/shachindran" target="_blank" class="contact-link hover-target" data-cursor="View My GitHub">GitHub</a>
+                <a href="https://www.instagram.com/shachindran_/" target="_blank" class="contact-link hover-target" data-cursor="Follow on Instagram">Instagram</a>
+            </div>
+        </div>
+
+        <div class="scrolling-text-container">
+            <div class="scrolling-text">
+                <h2>LET'S CONNECT • SHACHINDRAN • LET'S CONNECT • SHACHINDRAN • </h2>
+                <h2>LET'S CONNECT • SHACHINDRAN • LET'S CONNECT • SHACHINDRAN • </h2>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Shachindran Veerangan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div id="cursor-tap-hint" class="cursor-tap-hint"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
