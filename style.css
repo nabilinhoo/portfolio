@@ -126,21 +126,39 @@ body {
     padding-right: 5px;
 }
 
-.profile-container {
-    width: 240px;
-    height: 280px;
+.about-image {
+    width: 180px;
+    height: 210px;
     margin: 0 auto 30px;
     background: #e9e9e1;
-    border-radius: 60px;
-    overflow: hidden;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+    border-radius: 40px;
+    position: relative;
+    /* overflow: hidden; Removed to allow blob to peek out if needed */
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .profile-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 40px;
+    position: relative;
+    z-index: 2;
     display: block;
+}
+
+.image-bg-blob {
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: var(--primary-orange);
+    filter: blur(40px);
+    opacity: 0.15;
+    z-index: 1;
+    border-radius: 50%;
 }
 
 .sub-headline {
